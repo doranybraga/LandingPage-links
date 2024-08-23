@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    height:100vh;
+    box-sizing: border-box;
+    background-color:black;
+    color:#F6F6F6;
+}
+
+.nome{
+    color:#f75e5e;
+}
+
+.texto-destaque{
+    color:#FF8686;
+}
+
+.curso-enfase{
+    color:#F6F6F6
+}
+
+.apresentacao{
+    margin:10%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:10px 0 10px 0;
+    gap: 40PX;
+}
+
+.apresentacao__conteudo{
+    width: 615px;
+    height: 482px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.apresentacao__titulo{
+    font-size: 36px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.apresentacao__tecnologias{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.apresentacao__botoes{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.apresentacao__botoes__link{
+    background-color: #f75e5e;
+    color: #F6F6F6;
+    width:180px;
+    text-align: center;
+    border-radius: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    padding:10px 0 10px 0;
+    text-decoration: none;
+
+}
+.apresentacao_foto{
+    padding:10px 10px 10px 40px ;
+}
